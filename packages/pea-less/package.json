@@ -1,6 +1,6 @@
 {
   "name": "pea-less",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pea less plugin",
   "main": "dist/index.js",
   "scripts": {

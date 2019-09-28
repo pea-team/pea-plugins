@@ -1,6 +1,6 @@
 {
   "name": "pea-styled-jsx",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pea styled-jsx plugin",
   "main": "dist/index.js",
   "scripts": {
@@ -29,7 +29,6 @@
     "tsnl": "^1.0.0",
     "typescript": "^3.4.5"
   },
-
   "dependencies": {
     "customize-cra": "^0.7.0"
   }

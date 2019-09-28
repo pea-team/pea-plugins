@@ -1,0 +1,36 @@
+{
+  "name": "pea-styled-components",
+  "version": "0.0.0",
+  "description": "pea styled-components plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsnl dev",
+    "build": "tsnl build",
+    "test": "tsnl test",
+    "test:watch": "tsnl test --watch",
+    "test:cov": "tsnl test --coverage",
+    "lint": "tsnl lint",
+    "lint:fix": "tsnt lint --fix"
+  },
+  "eslintConfig": {
+    "extends": "leaf-app"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "tsnl": "^1.0.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "customize-cra": "^0.7.0"
+  }
+}

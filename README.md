@@ -29,13 +29,13 @@ export default {
 
 ## 官方插件
 
-- [pea-less](https://github.com/forsigner/pea-plugins/tree/master/packages/pea-less)
-- [pea-styled-components](https://github.com/forsigner/pea-plugins/tree/master/packages/pea-styled-components)
-- [pea-styled-jsx](https://github.com/forsigner/pea-plugins/tree/master/packages/pea-styled-jsx)
-- [pea-alias](https://github.com/forsigner/pea-plugins/tree/master/packages/pea-alias)
-- [pea-antd](https://github.com/forsigner/pea-plugins/tree/master/packages/pea-antd)
-- [pea-antd-pro](https://github.com/forsigner/pea-plugins/tree/master/packages/pea-antd-pro)
+- [pea-less](https://github.com/pea-team/pea-plugins/tree/master/packages/pea-less)
+- [pea-styled-components](https://github.com/pea-team/pea-plugins/tree/master/packages/pea-styled-components)
+- [pea-styled-jsx](https://github.com/pea-team/pea-plugins/tree/master/packages/pea-styled-jsx)
+- [pea-alias](https://github.com/pea-team/pea-plugins/tree/master/packages/pea-alias)
+- [pea-antd](https://github.com/pea-team/pea-plugins/tree/master/packages/pea-antd)
+- [pea-antd-pro](https://github.com/pea-team/pea-plugins/tree/master/packages/pea-antd-pro)
 
 ## License
 
-[MIT License](https://github.com/forsigner/pea-plugins/blob/master/LICENSE)
+[MIT License](https://github.com/pea-team/pea-plugins/blob/master/LICENSE)

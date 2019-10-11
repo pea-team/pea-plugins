@@ -1,6 +1,6 @@
 {
   "name": "pea-plugin-alias",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pea webpack alias plugin",
   "main": "dist/index.js",
   "scripts": {

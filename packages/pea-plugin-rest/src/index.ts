@@ -1,4 +1,6 @@
-export default class RestPlugin {
+import { IPlugin } from '@peajs/types'
+
+export default class RestPlugin implements IPlugin {
   addImportCode() {
     return `
       import { config } from '@peajs/rest'

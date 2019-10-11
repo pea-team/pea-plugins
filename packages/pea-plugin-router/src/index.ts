@@ -1,8 +1,9 @@
+import { IPlugin } from '@peajs/types'
 import { createRouterConfig } from './createRouterConfig'
 import { watchRouterConfig } from './watchRouterConfig'
 import { watchPages } from './watchPages'
 
-export default class RouterPlugin {
+export default class RouterPlugin implements IPlugin {
   beforeCompile() {
     createRouterConfig()
     watchRouterConfig()

@@ -31,5 +31,8 @@
     "react": "^16.10.2",
     "tsnl": "^1.2.1",
     "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@peajs/types": "0.0.3"
   }
 }

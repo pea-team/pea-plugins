@@ -1,8 +1,9 @@
+import { IPlugin } from '@peajs/types'
 import { createModalConfig } from './createModalConfig'
 import { watchModalConfig } from './watchModalConfig'
 import { watchModals } from './watchModals'
 
-export default class ModalPlugin {
+export default class ModalPlugin implements IPlugin {
   beforeCompile() {
     createModalConfig()
     watchModalConfig()

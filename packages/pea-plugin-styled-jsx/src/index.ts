@@ -1,6 +1,7 @@
+import { IPlugin } from '@peajs/types'
 import { addBabelPlugin } from 'customize-cra'
 
-export default class StyledJsxPlugin {
+export default class StyledJsxPlugin implements IPlugin {
   constructor(private options: any = {}) {}
 
   updateWebpackConfig(config: any) {

@@ -37,6 +37,7 @@
     "typescript": "^3.4.5"
   },
   "dependencies": {
+    "@peajs/types": "0.0.3",
     "chokidar": "^3.2.1",
     "fs-extra": "^8.1.0",
     "fs-jetpack": "^2.2.2",

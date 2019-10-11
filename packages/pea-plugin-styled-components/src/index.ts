@@ -1,9 +1,10 @@
+import { IPlugin } from '@peajs/types'
 import { addBabelPlugin } from 'customize-cra'
 
-export default class StyledComponentsPlugin {
+export default class StyledComponentsPlugin implements IPlugin {
   constructor(private options: any = {}) {}
 
-  updateWebpackConfig(config: any, env: string) {
+  updateWebpackConfig(config: any, env: string = '') {
     if (env !== 'development') {
       return config
     }

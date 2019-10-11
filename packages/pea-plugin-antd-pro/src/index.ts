@@ -1,6 +1,7 @@
 import { addBabelPlugin } from 'customize-cra'
+import { IPlugin } from '@peajs/types'
 
-export default class AntdProPlugin {
+export default class AntdProPlugin implements IPlugin {
   constructor(private options: any = {}) {}
 
   updateWebpackConfig(config: any) {

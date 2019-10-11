@@ -1,4 +1,6 @@
-export default class GraphqlPlugin {
+import { IPlugin } from '@peajs/types'
+
+export default class GraphqlPlugin implements IPlugin {
   addImportCode() {
     return `
       import { config } from '@peajs/graphql'

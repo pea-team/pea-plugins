@@ -1,16 +1,13 @@
+import { IPlugin } from '@peajs/types'
 import { createDrawerConfig } from './createDrawerConfig'
 import { watchDrawerConfig } from './watchDrawerConfig'
 import { watchDrawers } from './watchDrawers'
 
-export default class DrawerPlugin {
+export default class DrawerPlugin implements IPlugin {
   beforeCompile() {
     createDrawerConfig()
     watchDrawerConfig()
     watchDrawers()
-  }
-
-  updateWebpackConfig(config: any) {
-    return config
   }
 
   addImportCode() {

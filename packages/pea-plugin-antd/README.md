@@ -9,10 +9,10 @@ npm i pea-plugin-antd
 ## Usage
 
 ```js
-import antd from 'pea-plugin-antd'
+import AntdPlugin from 'pea-plugin-antd'
 
 export default {
-  plugins: [antd()],
+  plugins: [new AntdPlugin()],
 }
 ```
 
@@ -21,12 +21,12 @@ export default {
 to modify the default Ant Design theme:
 
 ```js
-import antd from 'pea-plugin-antd'
-import less from 'pea-plugin-less'
+import AntdPlugin from 'pea-plugin-antd'
+import LessPlugin from 'pea-plugin-less'
 
 export default {
   plugins: [
-    less({
+    new LessPlugin({
       modifyVars: {
         'primary-color': 'black',
         'link-color': '#1DA57A',
@@ -34,7 +34,7 @@ export default {
       },
       javascriptEnabled: true,
     }),
-    antd({
+    new AntdPlugin({
       style: true,
     }),
   ],
@@ -43,4 +43,4 @@ export default {
 
 ## License
 
-[MIT License](https://github.com/forsigner/pea-plugins/blob/master/LICENSE)
+[MIT License](https://github.com/pea-team/pea-plugins/blob/master/LICENSE)

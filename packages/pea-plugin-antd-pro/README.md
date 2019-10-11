@@ -9,14 +9,14 @@ npm i pea-plugin-antd pea-plugin-antd-pro
 ## Usage
 
 ```js
-import antd from 'pea-plugin-antd'
-import antdPro from 'pea-plugin-antd-pro'
+import AntdPlugin from 'pea-plugin-antd'
+import AntdProPlugin from 'pea-plugin-antd-pro'
 
 export default {
-  plugins: [antd(), antdPro()],
+  plugins: [new AntdPlugin(), new AntdProPlugin()],
 }
 ```
 
 ## License
 
-[MIT License](https://github.com/forsigner/pea-plugins/blob/master/LICENSE)
+[MIT License](https://github.com/pea-team/pea-plugins/blob/master/LICENSE)

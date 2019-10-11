@@ -9,13 +9,13 @@ npm i pea-plugin-styled-components
 ## Usage
 
 ```js
-import styledComponents from 'pea-plugin-styled-components'
+import StyledComponentsPlugin from 'pea-plugin-styled-components'
 
 export default {
-  plugins: [styledComponents()],
+  plugins: [new StyledComponentsPlugin()],
 }
 ```
 
 ## License
 
-[MIT License](https://github.com/forsigner/pea-plugins/blob/master/LICENSE)
+[MIT License](https://github.com/pea-team/pea-plugins/blob/master/LICENSE)

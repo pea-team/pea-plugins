@@ -9,13 +9,13 @@ npm i pea-plugin-less
 ## Usage
 
 ```js
-import less from 'pea-plugin-less'
+import LessPlugin from 'pea-plugin-less'
 
 export default {
-  plugins: [less()],
+  plugins: [new LessPlugin()],
 }
 ```
 
 ## License
 
-[MIT License](https://github.com/forsigner/pea-plugins/blob/master/LICENSE)
+[MIT License](https://github.com/pea-team/pea-plugins/blob/master/LICENSE)

@@ -9,12 +9,12 @@ npm i pea-plugin-less pea-plugin-antd
 ## 用法
 
 ```js
-import less from 'pea-plugin-less'
-import antd from 'pea-plugin-antd'
+import LessPlugin from 'pea-plugin-less'
+import AntdPlugin from 'pea-plugin-antd'
 
 export default {
   plugins: [
-    less({
+    new LessPlugin({
       modifyVars: {
         'primary-color': 'red',
         'link-color': '#1DA57A',
@@ -22,7 +22,7 @@ export default {
       },
       javascriptEnabled: true,
     }),
-    antd(),
+    new AntdPlugin(),
   ],
 }
 ```

@@ -3,13 +3,13 @@ import { IPlugin } from '@peajs/types'
 export default class GraphqlPlugin implements IPlugin {
   addImportCode() {
     return `
-      import { config } from '@peajs/graphql'
+      import { config as configGraphql } from '@peajs/graphql'
     `
   }
 
   addBootstrapCode() {
     return `
-      config(Pea.config.graphql||{})
+      configGraphql(Pea.config.graphql||{})
     `
   }
 }

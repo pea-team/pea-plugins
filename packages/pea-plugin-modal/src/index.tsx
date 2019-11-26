@@ -24,10 +24,6 @@ export default class ModalPlugin implements IPlugin {
   addBootstrapCode() {
     return `
       Pea.updateConfig({modals})
-
-      if (Pea.config.modalContainer) {
-        modalStore.setModalContainer(Pea.config.modalContainer)
-      }
     `
   }
 

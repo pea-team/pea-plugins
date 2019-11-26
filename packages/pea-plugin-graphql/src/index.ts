@@ -3,7 +3,7 @@ import { IPlugin } from '@peajs/types'
 export default class GraphqlPlugin implements IPlugin {
   addImportCode() {
     return `
-      import { config as configGraphql } from '@peajs/graphql'
+      import { config as configGraphql } from 'stook-graphql'
     `
   }
 

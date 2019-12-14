@@ -6,8 +6,10 @@ import { watchModals } from './watchModals'
 export default class ModalPlugin implements IPlugin {
   beforeCompile() {
     createModalConfig()
-    watchModalConfig()
-    watchModals()
+    if (process.env.NODE_ENV === 'development') {
+      watchModalConfig()
+      watchModals()
+    }
   }
 
   updateWebpackConfig(config: any) {

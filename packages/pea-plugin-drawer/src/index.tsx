@@ -6,8 +6,11 @@ import { watchDrawers } from './watchDrawers'
 export default class DrawerPlugin implements IPlugin {
   beforeCompile() {
     createDrawerConfig()
-    watchDrawerConfig()
-    watchDrawers()
+
+    if (process.env.NODE_ENV === 'development') {
+      watchDrawerConfig()
+      watchDrawers()
+    }
   }
 
   addImportCode() {

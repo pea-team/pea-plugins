@@ -6,8 +6,11 @@ import { watchPages } from './watchPages'
 export default class RouterPlugin implements IPlugin {
   beforeCompile() {
     createRouterConfig()
-    watchRouterConfig()
-    watchPages()
+
+    if (process.env.NODE_ENV === 'development') {
+      watchRouterConfig()
+      watchPages()
+    }
   }
 
   updateWebpackConfig(config: any) {

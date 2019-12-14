@@ -1,6 +1,6 @@
 {
   "name": "pea-plugin-drawer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Drawer plugin for Pea",
   "main": "dist/index.js",
   "scripts": {

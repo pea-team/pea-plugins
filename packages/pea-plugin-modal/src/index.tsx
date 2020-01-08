@@ -18,7 +18,7 @@ export default class ModalPlugin implements IPlugin {
 
   addImportCode() {
     return `
-      import { Modals, modalStore } from '@peajs/modal'
+      import { Modals } from '@peajs/modal'
       import modals from './config/modal.config'
     `
   }

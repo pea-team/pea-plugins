@@ -16,7 +16,7 @@ export default class DrawerPlugin implements IPlugin {
   addImportCode() {
     return `
       import { Drawers } from '@peajs/drawer'
-      import drawers from './config/drawer.config'
+      import drawers from '@config/drawer.config'
     `
   }
 

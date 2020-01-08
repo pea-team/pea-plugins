@@ -19,7 +19,7 @@ export default class RouterPlugin implements IPlugin {
 
   addImportCode() {
     return `
-      import routes from './config/router.config'
+      import routes from '@config/router.config'
       import { Router } from '@peajs/router'
     `
   }
